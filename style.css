@@ -94,5 +94,49 @@ button:hover {
 
     100% {
         transform: scale(1);
+.countdown-box {
+    margin: 30px 0;
+    padding: 25px 15px;
+    background: #fff0f5;
+    border-radius: 20px;
+}
+
+.countdown-box h2 {
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.countdown div {
+    background: white;
+    width: 90px;
+    padding: 15px 5px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown span {
+    display: block;
+    color: #e91e63;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.countdown small {
+    color: #777;
+    font-size: 13px;
+}
+
+#countdown-message {
+    margin-top: 20px;
+    color: #e91e63;
+    font-weight: bold;
+}
     }
 }
