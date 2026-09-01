@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb, #ffe4e1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.heart {
+    font-size: 70px;
+    animation: heartbeat 1.2s infinite;
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.message {
+    color: #666;
+    line-height: 1.7;
+    margin: 15px 0;
+}
+
+.monthsary {
+    margin: 30px 0;
+    padding: 15px;
+    background: #ffe4ec;
+    border-radius: 15px;
+    color: #e91e63;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.love {
+    color: #e91e63;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c2185b;
+}
+
+#surprise {
+    margin-top: 20px;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
